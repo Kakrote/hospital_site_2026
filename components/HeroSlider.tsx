@@ -3,58 +3,27 @@
 import { useState, useEffect } from "react"
 import Image from "next/image"
 import { ChevronLeft, ChevronRight } from "lucide-react"
+import content from "@/data/content.json"
 
 interface Slide {
   src: string
   alt: string
-  mobilePosition: string
+  mobilePosition?: string
 }
-
-const fallbackSlides: Slide[] = [
-  {
-    src: "/images/vercel-backup/home.png",
-    alt: "Research & Innovation at Uttaranchal University - 22+ Years of Excellence",
-    mobilePosition: "object-[25%_center]",
-  },
-  {
-    src: "/images/vercel-backup/scholarship.jpeg",
-    alt: "Scholarships Available Worth ₹69.22 Crore for Academic Year 2025-26",
-    mobilePosition: "object-[30%_center]",
-  },
-  {
-    src: "/images/vercel-backup/Slider.jpeg",
-    alt: "YUVA FEST 2025 - Unleash the Youth, Unfold the Magic",
-    mobilePosition: "object-[center_center]",
-  },
-]
 
 export default function HeroSlider() {
   const [currentSlide, setCurrentSlide] = useState(0)
-  const [slides, setSlides] = useState<Slide[]>(fallbackSlides)
+  const [slides, setSlides] = useState<Slide[]>([])
 
   useEffect(() => {
-    const fetchSlides = async () => {
-      try {
-        const res = await fetch("https://uucms.uudoon.in/api/homesliders/?format=json")
-        const data = await res.json()
-
-        if (Array.isArray(data) && data.length > 0) {
-          const formattedSlides = data.map((item: any) => ({
-            src: item.src || "/placeholder.svg",
-            alt: item.alt || "Uttaranchal University Slide",
-            mobilePosition: "object-[center_center]", // You can update based on actual content
-          }))
-          setSlides(formattedSlides)
-        } else {
-          setSlides(fallbackSlides)
-        }
-      } catch (error) {
-        console.error("Failed to load slides from API:", error)
-        setSlides(fallbackSlides)
-      }
+    if (content.heroSlider && Array.isArray(content.heroSlider)) {
+      const formattedSlides = content.heroSlider.map((item: any) => ({
+        src: item.src || "/placeholder.svg",
+        alt: item.alt || "Hospital Slide",
+        mobilePosition: "object-[center_center]",
+      }))
+      setSlides(formattedSlides)
     }
-
-    fetchSlides()
   }, [])
 
   useEffect(() => {
@@ -85,7 +54,7 @@ export default function HeroSlider() {
               currentSlide === index ? "opacity-100 z-10" : "opacity-0 z-0 absolute top-0 left-0"
             } w-full`}
           >
-            <div className="relative w-full aspect-[24/8] ">
+            <div className="relative w-full aspect-24/8 ">
               <Image
                 src={slide.src}
                 alt={slide.alt}

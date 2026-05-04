@@ -26,5 +26,24 @@
         ],
 
         "cta2":"Book an Appointment"
-    }
+    },
+
+    "heroSlider":[
+        {
+            "src":"/assets/images/hero-sliders/slider-new-2.png",
+            "alt":"Hero Image 1"
+        },
+        {
+            "src":"/assets/images/hero-sliders/slider-new-3.png",
+            "alt":"Hero Image 2"
+        },
+        {
+            "src":"/assets/images/hero-sliders/slider-new4.jpg",
+            "alt":"Hero Image 3"
+        },
+        {
+            "src":"/assets/images/hero-sliders/slider-new5.jpg",
+            "alt":"Hero Image 4"
+        }
+    ]
 }
