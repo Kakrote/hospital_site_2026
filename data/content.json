@@ -1,0 +1,30 @@
+{
+    "header":{
+       
+        "logo":"/assets/images/logo.svg",
+        "cta":"24X7 Emergency Service",
+        "contact":["0135-2770380","+917617774518"],
+        "addmission":"18008914232",
+        
+        "navigation":[
+            {"name":"About us","link":"/about"},
+            {
+                "name":"Departments",
+                "link":"/departments",
+                "children":[
+                    {"name":"General Medicine","link":"/departments/general-medicine"},
+                    {"name":"Surgery","link":"/departments/surgery"},
+                    {"name":"Gynaecology","link":"/departments/gynaecology"},
+                    {"name":"Orthopedics","link":"/departments/orthopedics"},
+                    {"name":"Pediatrics","link":"/departments/pediatrics"},
+                    {"name":"Neurology","link":"/departments/neurology"},
+                    {"name":"ENT","link":"/departments/ent"}
+                ]
+            },
+            {"name":"Doctors","link":"/doctors"},
+            {"name":"Contact us","link":"/contact"}
+        ],
+
+        "cta2":"Book an Appointment"
+    }
+}
