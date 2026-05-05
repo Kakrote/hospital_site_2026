@@ -9,7 +9,8 @@ const nextConfig: NextConfig = {
         hostname: 'uucms.uudoon.in',
         pathname: '/**',
       }
-    ]
+    ],
+    
   }
 };
 
