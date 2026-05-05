@@ -11,7 +11,7 @@ const CommonLayout = ({ children }: CommonLayoutProps) => {
   return (
     <div className="flex min-h-screen flex-col bg-slate-50 text-slate-900">
       <Header data={content.header} />
-      <main className="flex-1">
+      <main className="flex-1 pt-40 md:pt-32">
         {children}
       </main>
       <Footer />

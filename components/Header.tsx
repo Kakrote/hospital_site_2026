@@ -19,7 +19,7 @@ type HeaderProps = {
 
 const Header = ({ data }: { data: HeaderProps }) => {
     return (
-        <header className=" border-slate-200  backdrop-blur ">
+        <header className="fixed inset-x-0 top-0 z-80 border-slate-200 bg-white/95 backdrop-blur overflow-visible">
             {/* top bar */}
             <div className="mx-auto flex w-full  flex-col gap-4 px-4 py-2 sm:px-6 lg:px-8 bg-[#d6d61d]">
                 <div className="flex container mx-auto flex-col gap-3 text-sm text-black md:flex-row md:items-center md:justify-between">
@@ -48,13 +48,14 @@ const Header = ({ data }: { data: HeaderProps }) => {
 
             {/* main navigation */}
 
-            <div className="flex flex-col gap-4 lg:flex-row lg:items-center lg:justify-between container mx-auto px-4 py-4  sm:px-6 lg:px-8">
-                <Link href="/" className="inline-flex items-center gap-3">
-                    <img src={data.logo} alt="Hospital logo" className="h-12 w-auto" />
-                </Link>
+            <div className="border-b border-slate-200 bg-white/95 backdrop-blur">
+                <div className="relative z-50 flex flex-col gap-4 lg:flex-row lg:items-center lg:justify-between container mx-auto px-4 py-4 sm:px-6 lg:px-8">
+                    <Link href="/" className="inline-flex items-center gap-3">
+                        <img src={data.logo} alt="Hospital logo" className="h-12 w-auto" />
+                    </Link>
 
-                <nav aria-label="Primary" className="w-full lg:w-auto">
-                    <ul className="flex flex-wrap items-center gap-2 lg:justify-end">
+                    <nav aria-label="Primary" className="relative z-50 w-full lg:w-auto">
+                        <ul className="flex flex-wrap items-center gap-2 lg:justify-end">
                         {data.navigation.map((item) => (
                             <li key={item.name} className="relative group">
                                 {item.children?.length ? (
@@ -66,8 +67,8 @@ const Header = ({ data }: { data: HeaderProps }) => {
                                             {item.name}
                                             <span className="ml-2 text-xs">▾</span>
                                         </Link>
-                                        <div className="invisible absolute left-0 top-full z-20 pt-3 opacity-0 transition group-hover:visible group-hover:opacity-100 group-focus-within:visible group-focus-within:opacity-100">
-                                            <ul className="min-w-64 rounded-2xl border border-slate-200 bg-white p-2 shadow-lg shadow-slate-200/70">
+                                        <div className="invisible absolute left-0 top-full z-70 pt-3 opacity-0 transition group-hover:visible group-hover:opacity-100 group-focus-within:visible group-focus-within:opacity-100">
+                                            <ul className="min-w-64 rounded-2xl border border-slate-200 bg-white p-2 shadow-lg shadow-slate-200/70 ">
                                                 {item.children.map((child) => (
                                                     <li key={child.name}>
                                                         <Link
@@ -91,8 +92,9 @@ const Header = ({ data }: { data: HeaderProps }) => {
                                 )}
                             </li>
                         ))}
-                    </ul>
-                </nav>
+                        </ul>
+                    </nav>
+                </div>
             </div>
         </header>
     )

@@ -45,5 +45,11 @@
             "src":"/assets/images/hero-sliders/slider-new5.jpg",
             "alt":"Hero Image 4"
         }
-    ]
+    ],
+    
+    "about":{
+        "title":"Welcome to UHDC Uttaranchal Hospital & Diagnostic Centre, Dehradun",
+        "description":"Uttaranchal Hospital & Diagnostic Centre (UHDC), Dehradun, operates under the aegis of Sushila Devi Centre for Professional Studies & Research. As a 300-bedded multi-specialty hospital, UHDC is committed to delivering evidence-based, patient-centered healthcare with compassion, precision, and excellence. Equipped with modern infrastructure and staffed by experienced medical professionals, UHDC adheres to national and international quality standards — making advanced healthcare accessible to every patient we serve.",
+        "image":"/assets/images/h1.jpg"
+    }
 }
