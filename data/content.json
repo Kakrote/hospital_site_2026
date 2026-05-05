@@ -51,5 +51,64 @@
         "title":"Welcome to UHDC Uttaranchal Hospital & Diagnostic Centre, Dehradun",
         "description":"Uttaranchal Hospital & Diagnostic Centre (UHDC), Dehradun, operates under the aegis of Sushila Devi Centre for Professional Studies & Research. As a 300-bedded multi-specialty hospital, UHDC is committed to delivering evidence-based, patient-centered healthcare with compassion, precision, and excellence. Equipped with modern infrastructure and staffed by experienced medical professionals, UHDC adheres to national and international quality standards — making advanced healthcare accessible to every patient we serve.",
         "image":"/assets/images/h1.jpg"
-    }
+    },
+    "vissionMission":{
+        "vision":[
+            "We aim to lead the health care field in holistic and integrated wellness via quality, innovation, and personal & corporate integrity.",
+            "We provide value-based, quality medical care using old knowledge and modern facilities to be the global first-choice hospital for patients, consultants, and workers.",
+            "We will adapt to evolving patient demands and provide state-of-the-art, patient-centered treatments that go beyond physical remedies to include mind, body, and soul."
+        ],
+        "mission":[
+            "Delivering medical treatment through competent, experienced doctors and skilled support personnel.",
+            "Conducting medical camps and health awareness programs to encourage a healthier lifestyle.",
+            "Offering comprehensive and patient-centred infrastructure and amenities.",
+            "Promoting global & affordable medical healthcare to all socioeconomic groups."
+        ]
+    },
+    "ourServices":[
+        {
+            "name":"24X7 Emergency Care",
+            "icon":"AlertCircle"
+        },
+        {
+            "name":"ICU & Critical Care",
+            "icon":"Heart"
+        },
+        {
+            "name":"Operation Theatre (OT)",
+            "icon":"Stethoscope"
+        },
+        {
+            "name":"OPD & IPD Services",
+            "icon":"Users"
+        },
+        {
+            "name":"Diagnostic & Pathology Lab",
+            "icon":"Microscope"
+        },
+        {
+            "name":"Gynaecology Unit",
+            "icon":"Baby"
+        },
+        {
+            "name":"Physiotherapy Services",
+            "icon":"Activity"
+        },
+        {
+            "name":"Panchkarma & Kriyakalp (ENT care)",
+            "icon":"Pill"
+        },
+        {
+            "name":"Special OPD for Lifestyle Disorders",
+            "icon":"Zap"
+        },
+        {
+            "name":"Pharmacy Services",
+            "icon":"Package"
+        },
+        {
+            "name":"Consultation & Counselling",
+            "icon":"MessageCircle"
+        }
+    ]
 }
