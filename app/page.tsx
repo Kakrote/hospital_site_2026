@@ -11,8 +11,8 @@ const page = () => {
     <div>
       <HeroSlider />
       <About/>
-      <VissionMission/>
       <DirectorsMessage />
+      <VissionMission/>
       <Services/>
       <BloggerPosts />
     </div>
