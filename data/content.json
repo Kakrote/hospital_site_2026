@@ -110,5 +110,11 @@
             "name":"Consultation & Counselling",
             "icon":"MessageCircle"
         }
-    ]
+    ],
+    "directorsMessage":{
+        "name":"Jitender Joshi",
+        "designation":"President",
+        "image":"/assets/images/president.jpg",
+        "message":"The journey began in 2021 with the aim of making quality services accessible to the people of our city and state. It is owing to the incessant dedication and unceasing hard work that Uttaranchal Hospital & Diagnostic Centre (UHDC) has become synonymous with excellent medical services. The quality that we provide is vetted at every step to ensure that the patients and their families get the best possible care. The hospital is the epitome of our values of compassion, humility, tolerance, and empathy."
+    }
 }
