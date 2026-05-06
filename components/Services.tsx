@@ -11,7 +11,7 @@ const Services = () => {
   }
 
   return (
-    <section className="relative overflow-hidden bg-linear-to-br from-[#d6d61d] via-[#d6d61d]/40 to-[#d6d61d]/60 py-16 sm:py-24">
+    <section className="relative overflow-hidden bg-linear-to-br from-[#ffffff] via-[#ffffff]/20 to-[#ffffff]/40 py-16 sm:py-24">
       <div className="absolute -top-40 -right-40 h-80 w-80 rounded-full bg-[#1566a8]/5 blur-3xl" />
       <div className="absolute -bottom-40 -left-40 h-80 w-80 rounded-full bg-[#d8a519]/5 blur-3xl" />
       

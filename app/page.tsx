@@ -5,6 +5,7 @@ import DirectorsMessage from '@/components/DirectorsMessage'
 import VissionMission from '@/components/VissionMission'
 import Services from '@/components/Services'
 import BloggerPosts from '@/components/uu-blogs'
+import FAQ from '@/components/FAQ'
 
 const page = () => {
   return (
@@ -15,6 +16,7 @@ const page = () => {
       <VissionMission/>
       <Services/>
       <BloggerPosts />
+      <FAQ />
     </div>
   )
 }

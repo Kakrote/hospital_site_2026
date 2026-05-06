@@ -36,8 +36,8 @@ const DirectorsMessage = () => {
                     <div className="w-full md:w-2/3">
                         <h3 className="text-base font-semibold text-[#1566a8]">Director's Message</h3>
                         <h2 className="mt-3 text-3xl md:text-4xl font-bold text-slate-900">{director.name}</h2>
+                        <p className="mt-3 text-sm md:text-base text-slate-500">{director.designation}</p>
                         <p className="mt-4 text-lg md:text-xl text-slate-700 leading-8">{director.message}</p>
-                        <p className="mt-6 text-sm md:text-base text-slate-500">{director.designation}</p>
                     </div>
                 </div>
             </div>

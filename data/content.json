@@ -116,5 +116,31 @@
         "designation":"President",
         "image":"/assets/images/president.jpg",
         "message":"The journey began in 2021 with the aim of making quality services accessible to the people of our city and state. It is owing to the incessant dedication and unceasing hard work that Uttaranchal Hospital & Diagnostic Centre (UHDC) has become synonymous with excellent medical services. The quality that we provide is vetted at every step to ensure that the patients and their families get the best possible care. The hospital is the epitome of our values of compassion, humility, tolerance, and empathy."
-    }
+    },
+    "faq":[
+        {
+            "question":"What are your hospital's operating hours?",
+            "answer":"UHDC operates 24/7 with round-the-clock emergency services. Our OPD services are available from 9:00 AM to 6:00 PM on weekdays and 10:00 AM to 4:00 PM on weekends."
+        },
+        {
+            "question":"How do I book an appointment with a doctor?",
+            "answer":"You can book an appointment through our website, call us at 0135-2770380 or +917617774518, or visit our hospital in person. We also accept walk-in patients during OPD hours."
+        },
+        {
+            "question":"What insurance plans do you accept?",
+            "answer":"We accept most major insurance plans including BSNL, CGHS, Mediclaim, and other private insurance policies. Please contact our billing department for specific details about your plan."
+        },
+        {
+            "question":"Do you offer home delivery of medicines?",
+            "answer":"Yes, we provide home delivery of medicines through our pharmacy services. You can place your order by calling us or visiting our website."
+        },
+        {
+            "question":"What is the admission process?",
+            "answer":"For admission, contact our admission desk at 18008914232. You'll need to provide identification, insurance details (if applicable), and medical history. Our staff will guide you through the process."
+        },
+        {
+            "question":"Is there a parking facility available?",
+            "answer":"Yes, UHDC has ample parking space for both vehicles and two-wheelers. Parking is complimentary for all patients and visitors."
+        }
+    ]
 }
