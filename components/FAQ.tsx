@@ -20,10 +20,7 @@ const FAQ = () => {
 
                         {/* Header */}
                         <div className="mb-16 text-center">
-                            <div className="inline-flex items-center gap-2 rounded-full border border-[#1566a8]/20 bg-[#1566a8]/5 px-4 py-2 mb-6">
-                                <Sparkles className="w-4 h-4 text-[#1566a8]" />
-                                <span className="text-sm font-semibold text-[#1566a8]">GOT QUESTIONS?</span>
-                            </div>
+                          
                             <h2 className="text-4xl md:text-5xl font-bold text-slate-900 mb-4">
                                 Frequently Asked Questions
                             </h2>
@@ -85,20 +82,23 @@ const FAQ = () => {
                     </div>
 
                     {/* CTA Section */}
-                    <div className="mt-16 p-8 md:p-10 rounded-2xl bg-linear-to-r from-[#1566a8] to-[#1566a8]/80 text-white text-center h-fit">
-                        <h3 className="text-2xl md:text-3xl font-bold mb-3">
-                            Still have questions?
-                        </h3>
-                        <p className="text-white/90 mb-6 text-lg">
-                            Our friendly team is here to help. Contact us anytime!
-                        </p>
-                        <div className="flex flex-col md:flex-row gap-4 justify-center items-center">
-                            <a href="tel:01352770380" className="px-6 py-3 bg-white text-[#1566a8] rounded-lg font-semibold hover:bg-slate-50 transition-colors">
-                                Call Us: 0135-2770380
-                            </a>
-                            <a href="tel:18008914232" className="px-6 py-3 bg-[#d6d61d] text-slate-900 rounded-lg font-semibold hover:bg-[#d6d61d]/90 transition-colors">
-                                Admission: 1800-891-4232
-                            </a>
+                    <div className='h-full flex justify-center items-center'>
+
+                        <div className="mt-16 p-8 md:p-10 rounded-2xl bg-linear-to-r from-[#1566a8] to-[#1566a8]/80 text-white text-center h-fit">
+                            <h3 className="text-2xl md:text-3xl font-bold mb-3">
+                                Still have questions?
+                            </h3>
+                            <p className="text-white/90 mb-6 text-lg">
+                                Our friendly team is here to help. Contact us anytime!
+                            </p>
+                            <div className="flex flex-col md:flex-row gap-4 justify-center items-center">
+                                <a href="tel:01352770380" className="px-6 py-3 bg-white text-[#1566a8] rounded-lg font-semibold hover:bg-slate-50 transition-colors">
+                                    Call Us: 0135-2770380
+                                </a>
+                                <a href="tel:18008914232" className="px-6 py-3 bg-[#d6d61d] text-slate-900 rounded-lg font-semibold hover:bg-[#d6d61d]/90 transition-colors">
+                                    Admission: 1800-891-4232
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </div>

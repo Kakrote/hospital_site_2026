@@ -139,8 +139,8 @@ export default function BloggerPosts() {
       <div className="container mx-auto px-4">
         {/* Section heading */}
         <div className="mb-10 flex justify-center items-center flex-col">
-          <h2 className="text-4xl md:text-6xl font-bold text-[#2A2A2F]">Uttaranchal University</h2>
-          <h2 className="text-4xl md:text-6xl font-extrabold text-[#6bc533]">Hospital & Diagnostic Centre</h2>
+          <h2 className="text-4xl md:text-6xl font-bold text-[#6bc533]">Uttaranchal University</h2>
+          <h2 className="text-4xl md:text-6xl font-extrabold text-[#1d5ed6]">Hospital & Diagnostic Centre</h2>
         </div>
 
         {posts.length === 0 ? (
