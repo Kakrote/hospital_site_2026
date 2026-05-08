@@ -161,6 +161,17 @@
             "designation":"Medical Director",
             "image":"/assets/images/medical-director.webp",
             "message":"Welcome to Uttaranchal Medical College of Ayurveda and Research, where the timeless wisdom of Ayurveda is thoughtfully integrated with modern medical practices to promote holistic health and well-being. UMCAR is committed to nurturing future Ayurveda professionals through student-centered education that encourages critical thinking, ethical practice, research, and lifelong learning. With advanced laboratories, a herbal garden, and dedicated research facilities, the institution provides an enriching environment for academic excellence, professional development, and meaningful contribution to healthcare and community service."
+        },
+        "embraceSection":{
+            "title":"Embrace the Power of Modern Medicine",
+            "points": [
+                "Uttaranchal Hospital & Diagnostic Centre is committed to providing a comprehensive, evidence-based healthcare system for a healthier society and nation.",
+                "Experience the transformative potential of advanced medical care at UHDC, where our expert teams guide you through every step of your health journey from diagnosis to complete recovery.",
+                "As a premier multi-specialty hospital in Uttarakhand, we offer a wide range of treatments and therapies that combine the latest clinical advancements with compassionate, patient-centered care, ensuring better outcomes.",
+                "Our holistic approach addresses the overall well-being of every patient—physical, mental, and emotional—recognizing that true health is achieved when all aspects are in balance.",
+                "With a strong focus on quality treatment, skilled professionals, and continuous medical education, UHDC stands as a trusted center of healthcare excellence in the region."
+            ],
+            "image":"/assets/images/h1.jpg"
         }
     }
 }
