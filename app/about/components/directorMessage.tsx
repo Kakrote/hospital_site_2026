@@ -3,7 +3,7 @@ import Image from 'next/image'
 import data from '@/data/content.json'
 
 const DirectorsMessage = () => {
-    const director = data.directorsMessage
+    const director = data.aboutPage.directorsMessage
 
     return (
         <section className="py-20 md:py-28 bg-white"

@@ -115,7 +115,7 @@
         "name":"Jitender Joshi",
         "designation":"President",
         "image":"/assets/images/president.jpg",
-        "message":"The journey began in 2021 with the aim of making quality services accessible to the people of our city and state. It is owing to the incessant dedication and unceasing hard work that Uttaranchal Hospital & Diagnostic Centre (UHDC) has become synonymous with excellent medical services. The quality that we provide is vetted at every step to ensure that the patients and their families get the best possible care. The hospital is the epitome of our values of compassion, humility, tolerance, and empathy."
+        "message":"The journey began in 2021 with the aim of making quality healthcare services accessible to the people of our city and state. Owing to relentless dedication and continuous hard work, Uttaranchal Hospital & Diagnostic Centre (UHDC) has become synonymous with excellence in medical services. Every aspect of our care is carefully monitored to ensure that patients and their families receive the highest standard of treatment. The hospital reflects our core values of compassion, humility, tolerance, and empathy"
     },
     "faq":[
         {
@@ -142,5 +142,25 @@
             "question":"Is there a parking facility available?",
             "answer":"Yes, UHDC has ample parking space for both vehicles and two-wheelers. Parking is complimentary for all patients and visitors."
         }
-    ]
+    ],
+    "aboutPage":{
+        "aboutHospital":{
+            "title":"Welcome to UHDC",
+            "description":"Uttaranchal Hospital & Diagnostic Centre (UHDC), Dehradun, functions under the aegis of Sushila Devi Centre for Professional Studies & Research. As a 300-bedded multi-specialty hospital, it is dedicated to providing evidence-based and patient-centered healthcare. The institution emphasizes a balanced approach that combines compassion, clinical precision, and a commitment to excellence in every aspect of patient care.With modern infrastructure and a team of highly experienced medical professionals, UHDC ensures the delivery of high-quality healthcare services across various specialties. The hospital follows both national and international standards, enabling it to offer advanced medical treatments that are accessible, reliable, and tailored to the needs of every patient it serves."
+        },
+        "facilities":[
+            "24X7 Emergency Care",
+            "ICU & Critical Care",
+            "Operation Theatre (OT)",
+            "OPD & IPD Services",
+            "Diagnostic & Pathology Lab",
+            "300 Beds"
+        ],
+        "directorsMessage":{
+            "name":"Dr. Amit Bhatt",
+            "designation":"Medical Director",
+            "image":"/assets/images/medical-director.webp",
+            "message":"Welcome to Uttaranchal Medical College of Ayurveda and Research, where the timeless wisdom of Ayurveda is thoughtfully integrated with modern medical practices to promote holistic health and well-being. UMCAR is committed to nurturing future Ayurveda professionals through student-centered education that encourages critical thinking, ethical practice, research, and lifelong learning. With advanced laboratories, a herbal garden, and dedicated research facilities, the institution provides an enriching environment for academic excellence, professional development, and meaningful contribution to healthcare and community service."
+        }
+    }
 }

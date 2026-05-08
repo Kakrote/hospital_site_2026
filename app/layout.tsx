@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
+import localFont from "next/font/local";
 import "./globals.css";
 import CommonLayout from "@/components/commonLayout";
 import SmoothScroll from "@/components/SmoothScroll";
@@ -12,6 +13,16 @@ const geistSans = Geist({
 const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
   subsets: ["latin"],
+});
+
+const figtree = localFont({
+  variable: "--font-figtree",
+  src: [
+    { path: "../font/Figtree-Regular.ttf", weight: "400", style: "normal" },
+    { path: "../font/Figtree-Bold.ttf", weight: "700", style: "normal" },
+    { path: "../font/Figtree-Black.ttf", weight: "900", style: "normal" },
+  ],
+  display: "swap",
 });
 
 export const metadata: Metadata = {
@@ -27,9 +38,9 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
+      className={`${geistSans.variable} ${geistMono.variable} ${figtree.variable} h-full antialiased`}
     >
-        <body className="min-h-full bg-slate-50">
+        <body className="min-h-full bg-slate-50 font-figtree">
       <SmoothScroll>
           <CommonLayout>{children}</CommonLayout>
       </SmoothScroll>

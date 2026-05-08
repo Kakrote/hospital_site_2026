@@ -46,7 +46,7 @@ const About = () => {
                     {/* Right: content */}
                     <div className="order-1 lg:order-2">
                         <h2 className="text-3xl font-extrabold text-[#6bc533] sm:text-4xl">{about.title}</h2>
-                        <p className="mt-4 text-lg text-slate-700">{about.description}</p>
+                        <p className="mt-4 text-lg text-slate-700 text-justify">{about.description}</p>
 
                         {/* <div className="mt-6 grid grid-cols-1 gap-4 sm:grid-cols-2">
               <div className="rounded-lg border border-slate-100 bg-white p-5 shadow-sm">
