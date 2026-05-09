@@ -67,10 +67,8 @@ export default async function DepartmentPage({ params }: Props) {
 
                                 <div className="absolute inset-0 bg-linear-to-t from-slate-950/80 via-slate-950/10 to-transparent" />
                                 <div className="absolute inset-x-0 bottom-0 p-6 text-white sm:p-8">
-                                    <p className="text-xs font-semibold uppercase tracking-[0.32em] text-white/70">
-                                        Department spotlight
-                                    </p>
-                                    <h1 className="mt-3 text-2xl font-black tracking-tight">
+                                    
+                                    <h1 className="mt-3 text-2xl  font-bold tracking-tight text-stroke-black text-transparent">
                                         {department.title}
                                     </h1>
                                     <p className="mt-4 max-w-xl text-base leading-7 text-white/80 sm:text-sm">

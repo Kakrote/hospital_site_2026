@@ -18,7 +18,7 @@ export default function DepartmentsPage() {
                 <div className="mx-auto max-w-3xl text-center">
                    
 
-                    <h1 className="mt-6 text-4xl font-black tracking-tight text-slate-950 sm:text-5xl lg:text-6xl">
+                    <h1 className="mt-6 text-4xl font-black tracking-tight text-slate-950 sm:text-5xl  lg:text-6xl">
                         Departments designed around real patient journeys.
                     </h1>
 
