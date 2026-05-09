@@ -1,0 +1,36 @@
+{
+    "slug": "general_medicine",
+    "title": "General Medicine Department at UHDC Dehradun",
+    "description": "The General Medicine Department at UHDC Dehradun provides comprehensive care for patients with a wide range of medical conditions. Our team of experienced specialists offers a wide range of diagnostic and treatment options, ensuring the best possible outcomes for our patients.",
+    "image": "/assets/images/departments/general_medicine.jpg",
+    "content": {
+        "overview":"The General Medicine department at UHDC Dehradun is equipped with state-of-the-art facilities and a team of highly skilled professionals dedicated to providing exceptional care for patients with various medical conditions. We offer a comprehensive range of services, including diagnostic evaluations, medical management, and treatment interventions. Our approach combines traditional knowledge with modern techniques to ensure the highest standards of care and patient safety.",
+        "department_Consultant":[
+            {
+                "name":"Dr. Prachi Chaudhary",
+                "designation":"MD (Ayu.) - Kayachikitsa",
+                "image":"/assets/images/departments/general_medicine/Dr-Prachi-Chaudhary.webp"
+            }
+        ]    ,
+        "working_hours":{
+            "title":"Working Hours",
+            "days":"Monday to Saturday",
+            "time":"10:00 AM to 5:00 PM"
+        },
+        "faq":[
+            {
+                "question":"What kinds of conditions are treated here?",
+                "answer":"The department supports patients with a wide range of medical conditions, from general health concerns to ongoing diagnostic and treatment needs."
+            },
+            {
+                "question":"Do I need an appointment before visiting?",
+                "answer":"Booking ahead is recommended so the team can plan your consultation and guide you to the right care at the right time."
+            },
+            {
+                "question":"What are the consultation timings?",
+                "answer":"Consultations are available from Monday to Saturday, 10:00 AM to 5:00 PM."
+            }
+        ]
+    }
+
+}

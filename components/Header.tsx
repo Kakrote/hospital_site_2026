@@ -149,7 +149,7 @@ const Header = ({ data }: { data: HeaderProps }) => {
 
             {/* Mobile navigation menu - visible only on small screens when menu is open */}
             {menuOpen && (
-                <div className="lg:hidden absolute inset-x-0 top-full z-70 border-b border-slate-200 bg-white shadow-2xl shadow-slate-900/10 max-h-[calc(100dvh-100%)] overflow-y-auto overscroll-contain">
+                <div className="lg:hidden absolute inset-x-0 top-full z-auto border-b border-slate-200 bg-white shadow-2xl shadow-slate-900/10 max-h-[calc(100dvh-100%)] overflow-y-auto overscroll-contain">
                     <nav aria-label="Mobile" className="px-4 py-4 sm:px-6 pb-8">
                         <ul className="flex flex-col gap-2">
                             {data.navigation.map((item) => (

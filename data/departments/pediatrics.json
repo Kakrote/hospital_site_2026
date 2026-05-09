@@ -1,0 +1,36 @@
+{
+    "slug": "pediatrics",
+    "title": "Pediatrics Department at UHDC Dehradun",
+    "description": "The Pediatrics Department at UHDC Dehradun provides comprehensive care for children's health conditions. Our team of experienced specialists offers a wide range of diagnostic and treatment options, ensuring the best possible outcomes for our patients.",
+    "image": "/assets/images/departments/pediatrics.jpg",
+    "content": {
+        "overview":"The Pediatrics department at UHDC Dehradun is equipped with state-of-the-art facilities and a team of highly skilled professionals dedicated to providing exceptional care for children's health conditions. We offer a comprehensive range of services, including diagnostic evaluations, medical management, and treatment interventions. Our approach combines traditional knowledge with modern techniques to ensure the highest standards of care and patient safety.",
+        "department_Consultant":[
+            {
+                "name":"Dr. Komal Dhiman",
+                "designation":"MD ( Ayu) Consultant ( Bala Roga)",
+                "image":"/assets/images/departments/pediatrics/Dr-Komal-Dhiman.webp"
+            }
+        ]    ,
+        "working_hours":{
+            "title":"Working Hours",
+            "days":"Monday to Saturday",
+            "time":"10:00 AM to 5:00 PM"
+        },
+        "faq":[
+            {
+                "question":"What age group is seen here?",
+                "answer":"The Pediatrics department focuses on children’s health and care needs, including consultations and treatment support for younger patients."
+            },
+            {
+                "question":"Can I bring my child for a routine visit?",
+                "answer":"Yes. Routine visits are useful for general checks, follow-up care, and discussing any concerns about growth or health."
+            },
+            {
+                "question":"Are diagnostic evaluations available?",
+                "answer":"Yes. The department can support diagnostic evaluation when a child needs further assessment before treatment is decided."
+            }
+        ]
+    }
+
+}

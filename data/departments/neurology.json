@@ -1,0 +1,36 @@
+{
+    "slug": "gynaecology",
+    "title": "Gynaecology Department at UHDC Dehradun",
+    "description": "The Gynaecology Department at UHDC Dehradun provides comprehensive care for women's health conditions. Our team of experienced specialists offers a wide range of diagnostic and treatment options, ensuring the best possible outcomes for our patients.",
+    "image": "/assets/images/departments/gynaecology.jpg",
+    "content": {
+        "overview":"The Gynaecology department at UHDC Dehradun is equipped with state-of-the-art facilities and a team of highly skilled professionals dedicated to providing exceptional care for women's health conditions. We offer a comprehensive range of services, including diagnostic evaluations, medical management, and treatment interventions. Our approach combines traditional knowledge with modern techniques to ensure the highest standards of care and patient safety.",
+        "department_Consultant":[
+            {
+                "name":"Dr. Shivani Kalouni",
+                "designation":"MS (Ayu) Consultant (Prasuti Evam Stree Roga)",
+                "image":"/assets/images/departments/gynaecology/Dr-Shivani-Kalouni.webp"
+            }
+        ]    ,
+        "working_hours":{
+            "title":"Working Hours",
+            "days":"Monday to Saturday",
+            "time":"10:00 AM to 5:00 PM"
+        },
+        "faq":[
+            {
+                "question":"Can this department help with headache or nerve-related concerns?",
+                "answer":"Yes. The department entry is intended for specialist evaluation of nerve, brain, or headache-related concerns that need guided medical attention."
+            },
+            {
+                "question":"Will I need tests during the consultation?",
+                "answer":"Some patients may need further assessment or diagnostic testing depending on the symptoms and the specialist’s review."
+            },
+            {
+                "question":"Is follow-up care important for neurological concerns?",
+                "answer":"Yes. Ongoing follow-up can be important so the care plan can be adjusted based on symptoms and recovery."
+            }
+        ]
+    }
+
+}

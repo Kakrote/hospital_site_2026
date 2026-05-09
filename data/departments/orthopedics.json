@@ -1,0 +1,36 @@
+{
+    "slug": "gynaecology",
+    "title": "Gynaecology Department at UHDC Dehradun",
+    "description": "The Gynaecology Department at UHDC Dehradun provides comprehensive care for women's health conditions. Our team of experienced specialists offers a wide range of diagnostic and treatment options, ensuring the best possible outcomes for our patients.",
+    "image": "/assets/images/departments/gynaecology.jpg",
+    "content": {
+        "overview":"The Gynaecology department at UHDC Dehradun is equipped with state-of-the-art facilities and a team of highly skilled professionals dedicated to providing exceptional care for women's health conditions. We offer a comprehensive range of services, including diagnostic evaluations, medical management, and treatment interventions. Our approach combines traditional knowledge with modern techniques to ensure the highest standards of care and patient safety.",
+        "department_Consultant":[
+            {
+                "name":"Dr. Shivani Kalouni",
+                "designation":"MS (Ayu) Consultant (Prasuti Evam Stree Roga)",
+                "image":"/assets/images/departments/gynaecology/Dr-Shivani-Kalouni.webp"
+            }
+        ]    ,
+        "working_hours":{
+            "title":"Working Hours",
+            "days":"Monday to Saturday",
+            "time":"10:00 AM to 5:00 PM"
+        },
+        "faq":[
+            {
+                "question":"Can this department help with joint or mobility concerns?",
+                "answer":"Yes. The department listing is intended to cover movement-related conditions and specialist consultation for musculoskeletal concerns."
+            },
+            {
+                "question":"Is imaging or diagnostic evaluation part of the visit?",
+                "answer":"Diagnostic evaluation can be part of the care process when a specialist needs more information before treatment is planned."
+            },
+            {
+                "question":"When should I return for follow-up?",
+                "answer":"Follow-up timing depends on the treatment plan, and the department team will guide you based on your progress and recovery."
+            }
+        ]
+    }
+
+}

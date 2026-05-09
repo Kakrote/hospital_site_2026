@@ -1,0 +1,36 @@
+{
+    "slug": "surgery",
+    "title": "Surgery Department at UHDC Dehradun",
+    "description": "The Surgery Department at UHDC Dehradun offers comprehensive surgical care with a team of skilled surgeons and state-of-the-art facilities. We provide a wide range of surgical services, including general surgery, laparoscopic procedures, and specialized surgeries. Our commitment to patient safety, advanced techniques, and compassionate care ensures the best outcomes for our patients. Whether it's elective surgery or emergency procedures, our department is dedicated to delivering high-quality surgical care with a focus on patient well-being and recovery.",
+    "image": "/assets/images/departments/surgery.jpg",
+    "content": {
+        "overview":"According to Acharya Sushruta (Ancient Ayurvedic Surgeon), Shalya is the most suitable approach when the medical interventions alone are insufficient to address certain conditions. This specialized branch is recommended for ailments such as Arbuda (cysts, tumours), Gandamala (enlarged lymph nodes), Arsha (Haemorrhoids), Gudbhransha (prolapsed rectum), Ashmari (stones), Mutravrodha (urinary retention), and Stana roga (breast diseases). The Shalya department at UHDC Dehradun is dedicated to providing comprehensive surgical care, utilizing both traditional Ayurvedic techniques and modern surgical advancements. Our team of skilled surgeons and medical professionals is committed to delivering personalized treatment plans that prioritize patient well-being and recovery. With a focus on holistic healing, we aim to address a wide range of surgical conditions while ensuring the highest standards of care and patient safety.",
+        "department_Consultant":[
+            {
+                "name":"Dr. Chhavi",
+                "designation":"MS (Ayu) Consultant (Shalya Tantra)",
+                "image":"/assets/images/departments/surgery/Dr-Chhavi.webp"
+            }
+        ]    ,
+        "working_hours":{
+            "title":"Working Hours",
+            "days":"Monday to Saturday",
+            "time":"10:00 AM to 5:00 PM"
+        },
+        "faq":[
+            {
+                "question":"What kinds of surgical care are offered?",
+                "answer":"The department supports both planned and urgent surgical care, with a focus on safe procedures and recovery-focused treatment planning."
+            },
+            {
+                "question":"Will I get guidance before surgery?",
+                "answer":"Yes. Patients are guided through assessment, preparation, and the steps needed before any procedure is scheduled."
+            },
+            {
+                "question":"Can the department help with follow-up after surgery?",
+                "answer":"Yes. Follow-up care is part of the recovery process and helps monitor healing, comfort, and next steps."
+            }
+        ]
+    }
+
+}

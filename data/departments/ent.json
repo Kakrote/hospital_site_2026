@@ -1,0 +1,36 @@
+{
+    "slug": "ent",
+    "title": "ENT Department at UHDC Dehradun",
+    "description": "The ENT Department at UHDC Dehradun provides comprehensive care for patients with ear, nose, and throat conditions. Our team of experienced specialists offers a wide range of diagnostic and treatment options, ensuring the best possible outcomes for our patients.",
+    "image": "/assets/images/departments/ent.jpg",
+    "content": {
+        "overview":"The ENT department at UHDC Dehradun is equipped with state-of-the-art facilities and a team of highly skilled professionals dedicated to providing exceptional care for patients with ear, nose, and throat conditions. We offer a comprehensive range of services, including diagnostic evaluations, medical management, and surgical interventions. Our approach combines traditional knowledge with modern techniques to ensure the highest standards of care and patient safety.",
+        "department_Consultant":[
+            {
+                "name":"Dr. Kanchana Verma",
+                "designation":"MS (Ayu) Consultant (Shalakya)",
+                "image":"/assets/images/departments/ent/Dr-Kanchana-Verma.webp"
+            }
+        ]    ,
+        "working_hours":{
+            "title":"Working Hours",
+            "days":"Monday to Saturday",
+            "time":"10:00 AM to 5:00 PM"
+        },
+        "faq":[
+            {
+                "question":"What kinds of ENT problems are handled here?",
+                "answer":"The department supports ear, nose, and throat concerns, including diagnostic evaluation, treatment planning, and procedural care when needed."
+            },
+            {
+                "question":"Are minor procedures available?",
+                "answer":"Depending on the condition, the department can support medical management and suitable procedural interventions as part of care."
+            },
+            {
+                "question":"Do I need to book before visiting?",
+                "answer":"Booking ahead is recommended so the team can prepare for your consultation and direct you to the right service efficiently."
+            }
+        ]
+    }
+
+}
