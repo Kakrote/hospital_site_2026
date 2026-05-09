@@ -5,6 +5,7 @@ import DirectorsMessage from './components/directorMessage'
 import VissionMission from '@/components/VissionMission'
 // import embraceSection from './components/embraceSection'
 import EmbraceSection from './components/embraceSection'
+import FAQ from '@/components/FAQ'
 
 const page = () => {
   return (
@@ -14,6 +15,7 @@ const page = () => {
     <DirectorsMessage />
     <VissionMission/>
     <EmbraceSection/>
+    <FAQ/>
    </div>
   )
 }
