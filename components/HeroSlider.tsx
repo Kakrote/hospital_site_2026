@@ -44,7 +44,7 @@ export default function HeroSlider() {
 
 
   return (
-    <div className="relative w-full overflow-hidden group lg:mt-[calc(6vh-60px)] ">
+    <div className="relative w-full overflow-hidden group mt-[130px] lg:mt-[calc(6vh-60px)] ">
       <div className="relative  mx-auto">
         <div className="pointer-events-none absolute inset-0 z-20 " />
         {slides.map((slide, index) => (
