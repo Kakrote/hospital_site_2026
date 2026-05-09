@@ -49,7 +49,7 @@ const Header = ({ data }: { data: HeaderProps }) => {
     }
 
     return (
-        <header className="fixed inset-x-0 top-0 z-80 border-slate-200 bg-white/95 backdrop-blur overflow-visible">
+        <header className="relative lg:fixed lg:inset-x-0 lg:top-0 lg:z-80 border-slate-200 bg-white/95 backdrop-blur overflow-visible">
             {/* top bar */}
             <div className="mx-auto flex w-full flex-col px-4 py-2 sm:px-6 lg:px-8 bg-[#d6d61d]">
                 <div className="flex container mx-auto flex-col gap-3 text-sm text-black md:flex-row md:items-center md:justify-between">

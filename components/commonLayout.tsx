@@ -13,7 +13,7 @@ const CommonLayout = ({ children }: CommonLayoutProps) => {
     // <SmoothScroll>
       <div className="flex min-h-screen flex-col bg-slate-50 text-slate-900">
         <Header data={content.header} />
-        <main className="flex-1 pt-40 md:pt-32">
+        <main className="flex-1 pt-0 lg:pt-40">
           {children}
         </main>
         <Footer />
