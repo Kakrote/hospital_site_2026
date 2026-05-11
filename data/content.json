@@ -242,5 +242,18 @@
                 "image": "/assets/Doctor.png"
             }
         ]
-    }
+    },
+    "contactPage": {
+        "title": "Get in Touch with Us",
+        "description": "We are here to assist you with any inquiries or support you may need. Please feel free to reach out to us through any of the following methods:",
+        "contactDetails": {
+            "phone": [
+                "0135-2770380",
+                "+917617774518"
+            ],
+            "email": "info@umcar.edu.in",
+            "address": "123 Health Street, Dehradun, Uttarakhand, India" 
+        }
+        
+    }   
 }
