@@ -18,13 +18,14 @@ const DoctorCard = ({ doctor }: DoctorCardProps) => {
   return (
     <div className="group bg-white rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300 overflow-hidden border border-gray-100">
       {/* Doctor Image */}
-      <div className="relative h-64 w-full overflow-hidden bg-gray-200">
+      <div className="relative h-84 w-full overflow-hidden bg-gray-200">
         <Image
           src={doctor.image}
           alt={doctor.name}
-          fill
+          width={700}
+          height={90}
           className="object-cover group-hover:scale-105 transition-transform duration-300"
-          sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+        //   sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
         />
       </div>
 

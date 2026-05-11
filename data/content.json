@@ -1,154 +1,182 @@
 {
-    "header":{
-       
-        "logo":"/assets/images/logo.svg",
-        "cta":"24X7 Emergency Service",
-        "contact":["0135-2770380","+917617774518"],
-        "addmission":"18008914232",
-        
-        "navigation":[
-            {"name":"About us","link":"/about"},
+    "header": {
+        "logo": "/assets/images/logo.svg",
+        "cta": "24X7 Emergency Service",
+        "contact": [
+            "0135-2770380",
+            "+917617774518"
+        ],
+        "addmission": "18008914232",
+        "navigation": [
             {
-                "name":"Departments",
-                "link":"/departments",
-                "children":[
-                    {"name":"General Medicine","link":"/departments/general-medicine"},
-                    {"name":"Surgery","link":"/departments/surgery"},
-                    {"name":"Gynaecology","link":"/departments/gynaecology"},
-                    {"name":"Orthopedics","link":"/departments/orthopedics"},
-                    {"name":"Pediatrics","link":"/departments/pediatrics"},
-                    {"name":"Neurology","link":"/departments/neurology"},
-                    {"name":"ENT","link":"/departments/ent"}
+                "name": "About us",
+                "link": "/about"
+            },
+            {
+                "name": "Departments",
+                "link": "/departments",
+                "children": [
+                    {
+                        "name": "General Medicine",
+                        "link": "/departments/general-medicine"
+                    },
+                    {
+                        "name": "Surgery",
+                        "link": "/departments/surgery"
+                    },
+                    {
+                        "name": "Gynaecology",
+                        "link": "/departments/gynaecology"
+                    },
+                    {
+                        "name": "Orthopedics",
+                        "link": "/departments/orthopedics"
+                    },
+                    {
+                        "name": "Pediatrics",
+                        "link": "/departments/pediatrics"
+                    },
+                    {
+                        "name": "Neurology",
+                        "link": "/departments/neurology"
+                    },
+                    {
+                        "name": "ENT",
+                        "link": "/departments/ent"
+                    }
                 ]
             },
-            {"name":"Doctors","link":"/doctors"},
-            {"name":"Contact us","link":"/contact"}
+            {
+                "name": "Doctors",
+                "link": "/doctors"
+            },
+            {
+                "name": "Contact us",
+                "link": "/contact"
+            }
         ],
-
-        "cta2":"Book an Appointment"
+        "cta2": "Book an Appointment"
     },
-
-    "heroSlider":[
+    "heroSlider": [
         {
-            "src":"/assets/images/hero-sliders/slider-new-2.png",
-            "alt":"Hero Image 1"
+            "src": "/assets/images/hero-sliders/slider-new-2.png",
+            "alt": "Hero Image 1"
         },
         {
-            "src":"/assets/images/hero-sliders/slider-new-3.png",
-            "alt":"Hero Image 2"
+            "src": "/assets/images/hero-sliders/slider-new-3.png",
+            "alt": "Hero Image 2"
         },
         {
-            "src":"/assets/images/hero-sliders/slider-new4.jpg",
-            "alt":"Hero Image 3"
+            "src": "/assets/images/hero-sliders/slider-new4.jpg",
+            "alt": "Hero Image 3"
         },
         {
-            "src":"/assets/images/hero-sliders/slider-new5.jpg",
-            "alt":"Hero Image 4"
+            "src": "/assets/images/hero-sliders/slider-new5.jpg",
+            "alt": "Hero Image 4"
         }
     ],
-    
-    "about":{
-        "title":"Welcome to UHDC Uttaranchal Hospital & Diagnostic Centre, Dehradun",
-        "description":"Uttaranchal Hospital & Diagnostic Centre (UHDC), Dehradun, operates under the aegis of Sushila Devi Centre for Professional Studies & Research. As a 300-bedded multi-specialty hospital, UHDC is committed to delivering evidence-based, patient-centered healthcare with compassion, precision, and excellence. Equipped with modern infrastructure and staffed by experienced medical professionals, UHDC adheres to national and international quality standards — making advanced healthcare accessible to every patient we serve.",
-        "image":"/assets/images/h1.jpg"
+    "about": {
+        "title": "Welcome to UHDC Uttaranchal Hospital & Diagnostic Centre, Dehradun",
+        "description": "Uttaranchal Hospital & Diagnostic Centre (UHDC), Dehradun, operates under the aegis of Sushila Devi Centre for Professional Studies & Research. As a 300-bedded multi-specialty hospital, UHDC is committed to delivering evidence-based, patient-centered healthcare with compassion, precision, and excellence. Equipped with modern infrastructure and staffed by experienced medical professionals, UHDC adheres to national and international quality standards — making advanced healthcare accessible to every patient we serve.",
+        "image": "/assets/images/h1.jpg"
     },
-    "vissionMission":{
-        "vision":[
+    "vissionMission": {
+        "vision": [
             "We aim to lead the health care field in holistic and integrated wellness via quality, innovation, and personal & corporate integrity.",
             "We provide value-based, quality medical care using old knowledge and modern facilities to be the global first-choice hospital for patients, consultants, and workers.",
             "We will adapt to evolving patient demands and provide state-of-the-art, patient-centered treatments that go beyond physical remedies to include mind, body, and soul."
         ],
-        "mission":[
+        "mission": [
             "Delivering medical treatment through competent, experienced doctors and skilled support personnel.",
             "Conducting medical camps and health awareness programs to encourage a healthier lifestyle.",
             "Offering comprehensive and patient-centred infrastructure and amenities.",
             "Promoting global & affordable medical healthcare to all socioeconomic groups."
         ]
     },
-    "ourServices":[
+    "ourServices": [
         {
-            "name":"24X7 Emergency Care",
-            "icon":"AlertCircle"
+            "name": "24X7 Emergency Care",
+            "icon": "AlertCircle"
         },
         {
-            "name":"ICU & Critical Care",
-            "icon":"Heart"
+            "name": "ICU & Critical Care",
+            "icon": "Heart"
         },
         {
-            "name":"Operation Theatre (OT)",
-            "icon":"Stethoscope"
+            "name": "Operation Theatre (OT)",
+            "icon": "Stethoscope"
         },
         {
-            "name":"OPD & IPD Services",
-            "icon":"Users"
+            "name": "OPD & IPD Services",
+            "icon": "Users"
         },
         {
-            "name":"Diagnostic & Pathology Lab",
-            "icon":"Microscope"
+            "name": "Diagnostic & Pathology Lab",
+            "icon": "Microscope"
         },
         {
-            "name":"Gynaecology Unit",
-            "icon":"Baby"
+            "name": "Gynaecology Unit",
+            "icon": "Baby"
         },
         {
-            "name":"Physiotherapy Services",
-            "icon":"Activity"
+            "name": "Physiotherapy Services",
+            "icon": "Activity"
         },
         {
-            "name":"Panchkarma & Kriyakalp (ENT care)",
-            "icon":"Pill"
+            "name": "Panchkarma & Kriyakalp (ENT care)",
+            "icon": "Pill"
         },
         {
-            "name":"Special OPD for Lifestyle Disorders",
-            "icon":"Zap"
+            "name": "Special OPD for Lifestyle Disorders",
+            "icon": "Zap"
         },
         {
-            "name":"Pharmacy Services",
-            "icon":"Package"
+            "name": "Pharmacy Services",
+            "icon": "Package"
         },
         {
-            "name":"Consultation & Counselling",
-            "icon":"MessageCircle"
+            "name": "Consultation & Counselling",
+            "icon": "MessageCircle"
         }
     ],
-    "directorsMessage":{
-        "name":"Jitender Joshi",
-        "designation":"President",
-        "image":"/assets/images/president.jpg",
-        "message":"The journey began in 2021 with the aim of making quality healthcare services accessible to the people of our city and state. Owing to relentless dedication and continuous hard work, Uttaranchal Hospital & Diagnostic Centre (UHDC) has become synonymous with excellence in medical services. Every aspect of our care is carefully monitored to ensure that patients and their families receive the highest standard of treatment. The hospital reflects our core values of compassion, humility, tolerance, and empathy"
+    "directorsMessage": {
+        "name": "Jitender Joshi",
+        "designation": "President",
+        "image": "/assets/images/president.jpg",
+        "message": "The journey began in 2021 with the aim of making quality healthcare services accessible to the people of our city and state. Owing to relentless dedication and continuous hard work, Uttaranchal Hospital & Diagnostic Centre (UHDC) has become synonymous with excellence in medical services. Every aspect of our care is carefully monitored to ensure that patients and their families receive the highest standard of treatment. The hospital reflects our core values of compassion, humility, tolerance, and empathy"
     },
-    "faq":[
+    "faq": [
         {
-            "question":"What are your hospital's operating hours?",
-            "answer":"UHDC operates 24/7 with round-the-clock emergency services. Our OPD services are available from 9:00 AM to 6:00 PM on weekdays and 10:00 AM to 4:00 PM on weekends."
+            "question": "What are your hospital's operating hours?",
+            "answer": "UHDC operates 24/7 with round-the-clock emergency services. Our OPD services are available from 9:00 AM to 6:00 PM on weekdays and 10:00 AM to 4:00 PM on weekends."
         },
         {
-            "question":"How do I book an appointment with a doctor?",
-            "answer":"You can book an appointment through our website, call us at 0135-2770380 or +917617774518, or visit our hospital in person. We also accept walk-in patients during OPD hours."
+            "question": "How do I book an appointment with a doctor?",
+            "answer": "You can book an appointment through our website, call us at 0135-2770380 or +917617774518, or visit our hospital in person. We also accept walk-in patients during OPD hours."
         },
         {
-            "question":"What insurance plans do you accept?",
-            "answer":"We accept most major insurance plans including BSNL, CGHS, Mediclaim, and other private insurance policies. Please contact our billing department for specific details about your plan."
+            "question": "What insurance plans do you accept?",
+            "answer": "We accept most major insurance plans including BSNL, CGHS, Mediclaim, and other private insurance policies. Please contact our billing department for specific details about your plan."
         },
         {
-            "question":"Do you offer home delivery of medicines?",
-            "answer":"Yes, we provide home delivery of medicines through our pharmacy services. You can place your order by calling us or visiting our website."
+            "question": "Do you offer home delivery of medicines?",
+            "answer": "Yes, we provide home delivery of medicines through our pharmacy services. You can place your order by calling us or visiting our website."
         },
         {
-            "question":"What is the admission process?",
-            "answer":"For admission, contact our admission desk at 18008914232. You'll need to provide identification, insurance details (if applicable), and medical history. Our staff will guide you through the process."
+            "question": "What is the admission process?",
+            "answer": "For admission, contact our admission desk at 18008914232. You'll need to provide identification, insurance details (if applicable), and medical history. Our staff will guide you through the process."
         },
         {
-            "question":"Is there a parking facility available?",
-            "answer":"Yes, UHDC has ample parking space for both vehicles and two-wheelers. Parking is complimentary for all patients and visitors."
+            "question": "Is there a parking facility available?",
+            "answer": "Yes, UHDC has ample parking space for both vehicles and two-wheelers. Parking is complimentary for all patients and visitors."
         }
     ],
-    "aboutPage":{
-        "aboutHospital":{
-            "title":"Welcome to UHDC",
-            "description":"Uttaranchal Hospital & Diagnostic Centre (UHDC), Dehradun, functions under the aegis of Sushila Devi Centre for Professional Studies & Research. As a 300-bedded multi-specialty hospital, it is dedicated to providing evidence-based and patient-centered healthcare. The institution emphasizes a balanced approach that combines compassion, clinical precision, and a commitment to excellence in every aspect of patient care.With modern infrastructure and a team of highly experienced medical professionals, UHDC ensures the delivery of high-quality healthcare services across various specialties. The hospital follows both national and international standards, enabling it to offer advanced medical treatments that are accessible, reliable, and tailored to the needs of every patient it serves."
+    "aboutPage": {
+        "aboutHospital": {
+            "title": "Welcome to UHDC",
+            "description": "Uttaranchal Hospital & Diagnostic Centre (UHDC), Dehradun, functions under the aegis of Sushila Devi Centre for Professional Studies & Research. As a 300-bedded multi-specialty hospital, it is dedicated to providing evidence-based and patient-centered healthcare. The institution emphasizes a balanced approach that combines compassion, clinical precision, and a commitment to excellence in every aspect of patient care.With modern infrastructure and a team of highly experienced medical professionals, UHDC ensures the delivery of high-quality healthcare services across various specialties. The hospital follows both national and international standards, enabling it to offer advanced medical treatments that are accessible, reliable, and tailored to the needs of every patient it serves."
         },
-        "facilities":[
+        "facilities": [
             "24X7 Emergency Care",
             "ICU & Critical Care",
             "Operation Theatre (OT)",
@@ -156,14 +184,14 @@
             "Diagnostic & Pathology Lab",
             "300 Beds"
         ],
-        "directorsMessage":{
-            "name":"Dr. Amit Bhatt",
-            "designation":"Medical Director",
-            "image":"/assets/images/medical-director.webp",
-            "message":"Welcome to Uttaranchal Medical College of Ayurveda and Research, where the timeless wisdom of Ayurveda is thoughtfully integrated with modern medical practices to promote holistic health and well-being. UMCAR is committed to nurturing future Ayurveda professionals through student-centered education that encourages critical thinking, ethical practice, research, and lifelong learning. With advanced laboratories, a herbal garden, and dedicated research facilities, the institution provides an enriching environment for academic excellence, professional development, and meaningful contribution to healthcare and community service."
+        "directorsMessage": {
+            "name": "Dr. Amit Bhatt",
+            "designation": "Medical Director",
+            "image": "/assets/images/medical-director.webp",
+            "message": "Welcome to Uttaranchal Medical College of Ayurveda and Research, where the timeless wisdom of Ayurveda is thoughtfully integrated with modern medical practices to promote holistic health and well-being. UMCAR is committed to nurturing future Ayurveda professionals through student-centered education that encourages critical thinking, ethical practice, research, and lifelong learning. With advanced laboratories, a herbal garden, and dedicated research facilities, the institution provides an enriching environment for academic excellence, professional development, and meaningful contribution to healthcare and community service."
         },
-        "embraceSection":{
-            "title":"Embrace the Power of Modern Medicine",
+        "embraceSection": {
+            "title": "Embrace the Power of Modern Medicine",
             "points": [
                 "Uttaranchal Hospital & Diagnostic Centre is committed to providing a comprehensive, evidence-based healthcare system for a healthier society and nation.",
                 "Experience the transformative potential of advanced medical care at UHDC, where our expert teams guide you through every step of your health journey from diagnosis to complete recovery.",
@@ -171,49 +199,48 @@
                 "Our holistic approach addresses the overall well-being of every patient—physical, mental, and emotional—recognizing that true health is achieved when all aspects are in balance.",
                 "With a strong focus on quality treatment, skilled professionals, and continuous medical education, UHDC stands as a trusted center of healthcare excellence in the region."
             ],
-            "image":"/assets/images/h1.jpg"
+            "image": "/assets/images/h1.jpg"
         }
     },
-    "doctorsPage":{
-        "title":"Meet Our Expert Doctors",
-        "doctorList":[
+    "doctorsPage": {
+        "title": "Meet Our Expert Doctors",
+        "doctorList": [
             {
-                "name":"Dr. Anshul Joshi",
-                "specialization":"Cardiologist",
-                "experience":"15 years",
-                "image":"/assets/images/doctors/anshul-joshi.jpg"
+                "name": "Dr. Anshul Joshi",
+                "specialization": "Cardiologist",
+                "experience": "15 years",
+                "image": "/assets/docm.png"
             },
             {
-                "name":"Dr. Priya Sharma",
-                "specialization":"Neurologist",
-                "experience":"12 years",
-                "image":"/assets/images/doctors/priya-sharma.jpg"
+                "name": "Dr. Priya Sharma",
+                "specialization": "Neurologist",
+                "experience": "12 years",
+                "image": "/assets/Doctor.png"
             },
             {
-                "name":"Dr. Rohan Verma",
-                "specialization":"Orthopedic Surgeon",
-                "experience":"10 years",
-                "image":"/assets/images/doctors/rohan-verma.jpg"
+                "name": "Dr. Rohan Verma",
+                "specialization": "Orthopedic Surgeon",
+                "experience": "10 years",
+                "image": "/assets/docm.png"
             },
             {
-                "name":"Dr. Meera Singh",
-                "specialization":"Pediatrician",
-                "experience":"8 years",
-                "image":"/assets/images/doctors/meera-singh.jpg"
-            },
-            { 
-                "name":"Dr. Arjun Kapoor",
-                "specialization":"General Surgeon",
-                "experience":"20 years",
-                "image":"/assets/images/doctors/arjun-kapoor.jpg"
+                "name": "Dr. Meera Singh",
+                "specialization": "Pediatrician",
+                "experience": "8 years",
+                "image": "/assets/Doctor.png"
             },
             {
-                "name":"Dr. Kavita Desai",
-                "specialization":"Gynaecologist",
-                "experience":"18 years",
-                "image":"/assets/images/doctors/kavita-desai.jpg"
+                "name": "Dr. Arjun Kapoor",
+                "specialization": "General Surgeon",
+                "experience": "20 years",
+                "image": "/assets/docm.png"
+            },
+            {
+                "name": "Dr. Kavita Desai",
+                "specialization": "Gynaecologist",
+                "experience": "18 years",
+                "image": "/assets/Doctor.png"
             }
         ]
-      
     }
 }
