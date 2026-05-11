@@ -3,10 +3,10 @@
 export default function LocateUsMapSection() {
   return (
     <section className="py- bg-white font-figtree">
-      <div className="container mx-auto px-4">
+      <div className="container mx-auto px-4 py-20">
         <div className="text-left mb-10">
           <h2 className="text-4xl font-bold text-center  mb-2  ">LOCATE US ON</h2>
-          <h2 className="text-6xl font-bold text-center text-[#d6d61d] ">MAPS</h2>
+          <h2 className="text-5xl font-bold text-center text-[#d6d61d] ">MAPS</h2>
         </div>
 
         <div className="rounded-lg overflow-hidden shadow-lg">
