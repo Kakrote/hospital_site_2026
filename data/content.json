@@ -173,5 +173,47 @@
             ],
             "image":"/assets/images/h1.jpg"
         }
+    },
+    "doctorsPage":{
+        "title":"Meet Our Expert Doctors",
+        "doctorList":[
+            {
+                "name":"Dr. Anshul Joshi",
+                "specialization":"Cardiologist",
+                "experience":"15 years",
+                "image":"/assets/images/doctors/anshul-joshi.jpg"
+            },
+            {
+                "name":"Dr. Priya Sharma",
+                "specialization":"Neurologist",
+                "experience":"12 years",
+                "image":"/assets/images/doctors/priya-sharma.jpg"
+            },
+            {
+                "name":"Dr. Rohan Verma",
+                "specialization":"Orthopedic Surgeon",
+                "experience":"10 years",
+                "image":"/assets/images/doctors/rohan-verma.jpg"
+            },
+            {
+                "name":"Dr. Meera Singh",
+                "specialization":"Pediatrician",
+                "experience":"8 years",
+                "image":"/assets/images/doctors/meera-singh.jpg"
+            },
+            { 
+                "name":"Dr. Arjun Kapoor",
+                "specialization":"General Surgeon",
+                "experience":"20 years",
+                "image":"/assets/images/doctors/arjun-kapoor.jpg"
+            },
+            {
+                "name":"Dr. Kavita Desai",
+                "specialization":"Gynaecologist",
+                "experience":"18 years",
+                "image":"/assets/images/doctors/kavita-desai.jpg"
+            }
+        ]
+      
     }
 }
