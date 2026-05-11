@@ -17,7 +17,7 @@ const CommonLayout = ({ children }: CommonLayoutProps) => {
         <Header data={content.header} />
         <main className="flex-1 pt-0 lg:pt-40">
           <SEO />
-          <div className="max-w-7xl mx-auto px-4 md:px-6 lg:px-8">
+          <div className="container mx-auto px-4 md:px-6 lg:px-8">
             <Breadcrumb />
             {children}
           </div>
