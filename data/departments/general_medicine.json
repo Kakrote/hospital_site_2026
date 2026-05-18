@@ -4,11 +4,11 @@
     "description": "The General Medicine Department at UHDC Dehradun provides comprehensive care for patients with a wide range of medical conditions. Our team of experienced specialists offers a wide range of diagnostic and treatment options, ensuring the best possible outcomes for our patients.",
     "image": "/assets/images/departments/general_medicine.jpg",
     "content": {
-        "overview":"The General Medicine department at UHDC Dehradun is equipped with state-of-the-art facilities and a team of highly skilled professionals dedicated to providing exceptional care for patients with various medical conditions. We offer a comprehensive range of services, including diagnostic evaluations, medical management, and treatment interventions. Our approach combines traditional knowledge with modern techniques to ensure the highest standards of care and patient safety.",
+        "overview":"The General Medicine Department at Uttaranchal Hospital & Diagnostic Centre (UHDC), Dehradun provides comprehensive healthcare services for adult patients with a wide range of acute and chronic medical conditions. The department serves as the first point of contact for most patients and plays a vital role in diagnosis, treatment, and long-term disease management.Our team of experienced physicians and trained nursing staff manages common and complex conditions such as fever, infections, diabetes, hypertension, respiratory disorders, gastrointestinal diseases, and lifestyle-related illnesses. We emphasize early diagnosis, evidence-based treatment, and continuous monitoring to ensure better patient outcomes.The department is supported by 24×7 emergency services, advanced laboratory facilities, radiology services, and ICU support, enabling prompt and effective management of critically ill patients. Regular ward rounds, case discussions, and multidisciplinary coordination ensure holistic and patient-centered care.We also focus on preventive healthcare through routine health check-ups, screening programs, patient education, and lifestyle modification guidance to promote long-term wellness and disease prevention.At UHDC, the General Medicine Department is committed to delivering safe, ethical, and high-quality healthcare with compassion and professionalism.",
         "department_Consultant":[
             {
                 "name":"Dr. Prachi Chaudhary",
-                "designation":"MD (Ayu.) - Kayachikitsa",
+                "designation":"MD - Kayachikitsa",
                 "image":"/assets/images/departments/general_medicine/Dr-Prachi-Chaudhary.webp"
             }
         ]    ,

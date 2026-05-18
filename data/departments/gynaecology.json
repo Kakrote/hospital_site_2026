@@ -4,11 +4,11 @@
     "description": "The Gynaecology Department at UHDC Dehradun provides comprehensive care for women's health conditions. Our team of experienced specialists offers a wide range of diagnostic and treatment options, ensuring the best possible outcomes for our patients.",
     "image": "/assets/images/departments/gynaecology.jpg",
     "content": {
-        "overview":"The Gynaecology department at UHDC Dehradun is equipped with state-of-the-art facilities and a team of highly skilled professionals dedicated to providing exceptional care for women's health conditions. We offer a comprehensive range of services, including diagnostic evaluations, medical management, and treatment interventions. Our approach combines traditional knowledge with modern techniques to ensure the highest standards of care and patient safety.",
+        "overview":"The Department of Obstetrics & Gynaecology at Uttaranchal Hospital & Diagnostic Centre (UHDC), Dehradun provides comprehensive healthcare services for women at every stage of life. The department is supported by experienced consultants, skilled nursing staff, and modern medical infrastructure to ensure safe, effective, and compassionate care.We offer a wide range of services, including antenatal and postnatal care, high-risk pregnancy management, infertility evaluation, management of menstrual and hormonal disorders, and advanced gynaecological surgeries. The department is equipped with modern labour rooms, well-established Operation Theatres (OT), and neonatal support facilities to manage both routine and emergency cases efficiently.Our approach is based on evidence-based allopathic practices, focusing on patient safety, early diagnosis, personalized treatment, and holistic care. We are committed to delivering ethical, compassionate, and high-quality healthcare to ensure the well-being of every woman.",
         "department_Consultant":[
             {
                 "name":"Dr. Shivani Kalouni",
-                "designation":"MS (Ayu) Consultant (Prasuti Evam Stree Roga)",
+                "designation":"MS Consultant (Prasuti Evam Stree Roga)",
                 "image":"/assets/images/departments/gynaecology/Dr-Shivani-Kalouni.webp"
             }
         ]    ,

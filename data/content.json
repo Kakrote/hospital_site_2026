@@ -37,10 +37,6 @@
                         "link": "/departments/pediatrics"
                     },
                     {
-                        "name": "Neurology",
-                        "link": "/departments/neurology"
-                    },
-                    {
                         "name": "ENT",
                         "link": "/departments/ent"
                     }

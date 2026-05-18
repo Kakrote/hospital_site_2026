@@ -48,7 +48,7 @@ export default async function DepartmentPage({ params }: Props) {
             <section className="relative mx-auto max-w-7xl px-4 py-10 sm:px-6 sm:py-14 lg:px-8 lg:py-16">
                 <div className="grid gap-8 ">
                     <div className="overflow-hidden rounded-4xl border border-slate-200 bg-white shadow-[0_24px_80px_rgba(15,23,42,0.12)]">
-                        <div className="grid gap-0 lg:grid-cols-[0.95fr_1.05fr]">
+                        <div className="">
                             <div className="relative min-h-104 bg-slate-100 lg:min-h-136">
                                 {department.image ? (
                                     <Image
@@ -71,13 +71,13 @@ export default async function DepartmentPage({ params }: Props) {
                                     <h1 className="mt-3 text-2xl  font-bold tracking-tight text-stroke text-transparent">
                                         {department.title}
                                     </h1>
-                                    <p className="mt-4 max-w-xl text-base leading-7 text-white/80 sm:text-sm">
+                                    <p className="mt-4 max-w-5xl text-base leading-7 text-white/80 sm:text-sm">
                                         {department.description}
                                     </p>
                                 </div>
                             </div>
 
-                            <div className="flex flex-col justify-between p-6 sm:p-8">
+                            {/* <div className="flex flex-col justify-between p-6 sm:p-8">
                                 <div>
                                     
 
@@ -91,7 +91,7 @@ export default async function DepartmentPage({ params }: Props) {
                                     </div>
                                 </div>
 
-                            </div>
+                            </div> */}
                         </div>
                     </div>
 
@@ -101,7 +101,7 @@ export default async function DepartmentPage({ params }: Props) {
                     <DepartmentSection
                         // eyebrow=""
                         title="A practical overview of the department"
-                        description="The page uses the department JSON as the source of truth, so each specialty can surface its own story without hardcoded content."
+                        description=""
                     >
                         <p className="text-base leading-8 text-slate-600 sm:text-lg">
                             {overview}

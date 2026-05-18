@@ -20,7 +20,7 @@ export default function Breadcrumb() {
   const parts = pathname.split('/').filter(Boolean);
 
   return (
-    <nav aria-label="Breadcrumb" className="mb-6">
+    <nav aria-label="Breadcrumb" className="mb-6 container mx-auto px-4 sm:px-6 lg:px-8">
       <ol className="flex flex-wrap items-center gap-2 text-sm text-slate-600">
         <li>
           <Link href="/" className="hover:text-slate-900 font-medium">
