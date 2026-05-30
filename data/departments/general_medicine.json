@@ -7,9 +7,9 @@
         "overview":"The General Medicine Department at Uttaranchal Hospital & Diagnostic Centre (UHDC), Dehradun provides comprehensive healthcare services for adult patients with a wide range of acute and chronic medical conditions. The department serves as the first point of contact for most patients and plays a vital role in diagnosis, treatment, and long-term disease management.Our team of experienced physicians and trained nursing staff manages common and complex conditions such as fever, infections, diabetes, hypertension, respiratory disorders, gastrointestinal diseases, and lifestyle-related illnesses. We emphasize early diagnosis, evidence-based treatment, and continuous monitoring to ensure better patient outcomes.The department is supported by 24×7 emergency services, advanced laboratory facilities, radiology services, and ICU support, enabling prompt and effective management of critically ill patients. Regular ward rounds, case discussions, and multidisciplinary coordination ensure holistic and patient-centered care.We also focus on preventive healthcare through routine health check-ups, screening programs, patient education, and lifestyle modification guidance to promote long-term wellness and disease prevention.At UHDC, the General Medicine Department is committed to delivering safe, ethical, and high-quality healthcare with compassion and professionalism.",
         "department_Consultant":[
             {
-                "name":"Dr. Prachi Chaudhary",
+                "name":"Dr Jyoti Negi",
                 "designation":"MD - Kayachikitsa",
-                "image":"/assets/images/departments/general_medicine/Dr-Prachi-Chaudhary.webp"
+                "image":"/assets/images/doctors/gm.jpg"
             }
         ]    ,
         "working_hours":{
@@ -20,7 +20,7 @@
         "faq":[
             {
                 "question":"What kinds of conditions are treated here?",
-                "answer":"The department supports patients with a wide range of medical conditions, from general health concerns to ongoing diagnostic and treatment needs."
+                "answer":"The General Medicine Department manages a wide range of acute and chronic health conditions. These include common illnesses like fever, viral infections, and bacterial infections, as well as long-term diseases such as diabetes and hypertension. The department also treats respiratory problems like asthma and bronchitis, gastrointestinal disorders such as acidity and liver diseases, and various lifestyle-related conditions. In addition, patients with complex or multiple health issues are carefully evaluated, diagnosed early, and managed using evidence-based treatment, with continuous monitoring and support from emergency, laboratory, radiology, and ICU services to ensure the best possible outcomes."
             },
             {
                 "question":"Do I need an appointment before visiting?",

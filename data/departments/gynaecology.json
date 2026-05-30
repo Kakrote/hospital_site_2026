@@ -9,7 +9,7 @@
             {
                 "name":"Dr. Shivani Kalouni",
                 "designation":"MS Consultant (Prasuti Evam Stree Roga)",
-                "image":"/assets/images/departments/gynaecology/Dr-Shivani-Kalouni.webp"
+                "image":"/assets/images/doctors/gyno.jpg"
             }
         ]    ,
         "working_hours":{
@@ -19,8 +19,8 @@
         },
         "faq":[
             {
-                "question":"What services are commonly discussed in this department?",
-                "answer":"The department focuses on women’s health concerns, consultation, assessment, and treatment planning based on the patient’s needs."
+                "question":"What are the common services provided in the Obstetrics & Gynaecology Department?",
+                "answer":"The Obstetrics & Gynaecology Department at UHDC provides a wide range of services for women’s health at all stages of life. These include antenatal and postnatal care, management of normal and high-risk pregnancies, infertility evaluation, and treatment of menstrual and hormonal disorders. The department also offers advanced gynaecological surgeries and handles both routine and emergency cases. With modern labour rooms, operation theatres, and neonatalsupport, the focus is on safe delivery, early diagnosis, personalized treatment, and comprehensive care for women."
             },
             {
                 "question":"Is this department suitable for routine checkups?",

@@ -38,14 +38,14 @@ const DoctorCard = ({ doctor }: DoctorCardProps) => {
         {/* Specialization */}
         <div className="flex items-center gap-2 mb-3">
           <Stethoscope className="h-5 w-5 text-blue-600 flex-shrink-0" />
-          <p className="text-gray-700 font-medium">{doctor.specialization}</p>
+          <p className="text-gray-700 font-medium uppercase">{doctor.specialization}</p>
         </div>
 
         {/* Experience */}
-        <div className="flex items-center gap-2">
+        {/* <div className="flex items-center gap-2">
           <Award className="h-5 w-5 text-green-600 flex-shrink-0" />
           <p className="text-gray-600 text-sm">{doctor.experience} of experience</p>
-        </div>
+        </div> */}
 
         {/* Appointment Button */}
         <button className="w-full mt-6 px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors font-medium">

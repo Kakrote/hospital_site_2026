@@ -9,7 +9,7 @@
             {
                 "name":"Dr. Chhavi",
                 "designation":"MS (Surgery) Consultant",
-                "image":"/assets/images/departments/surgery/Dr-Chhavi.webp"
+                "image":"/assets/images/doctors/surgury.jpg"
             }
         ]    ,
         "working_hours":{
@@ -20,7 +20,7 @@
         "faq":[
             {
                 "question":"What kinds of surgical care are offered?",
-                "answer":"The department supports both planned and urgent surgical care, with a focus on safe procedures and recovery-focused treatment planning."
+                "answer":"The General Surgery Department at UHDC offers a wide range of surgical care, including both major and minor procedures. It covers general surgeries such as hernia repair, appendicitis, gallbladder removal, piles, fistula, and treatment of soft tissue swellings and breast disorders. The department also manages emergency and trauma cases requiring immediate surgical intervention. With well-equipped operation theatres, ICU support, and post-operative care facilities, the focus is on safe surgery, timely treatment, faster recovery, and patient-centered care using evidence-based surgical practices."
             },
             {
                 "question":"Will I get guidance before surgery?",

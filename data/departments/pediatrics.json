@@ -9,7 +9,7 @@
             {
                 "name":"Dr. Komal Dhiman,",
                 "designation":"MS (Pediatrics) Consultant",
-                "image":"/assets/images/departments/pediatrics/Dr-Komal-Dhiman.webp"
+                "image":"/assets/images/doctors/pedicatric.jpg"
             }
         ]    ,
         "working_hours":{
@@ -19,8 +19,8 @@
         },
         "faq":[
             {
-                "question":"What age group is seen here?",
-                "answer":"The Pediatrics department focuses on children’s health and care needs, including consultations and treatment support for younger patients."
+                "question":"Which age group of patients is treated in the Pediatrics Department?",
+                "answer":"The Pediatrics Department at UHDC provides healthcare services for patients from birth through adolescence. This includes newborns, infants, children, and teenagers up to 18 years of age. The department ensures age-appropriate care at every stage of growth and development, including newborn care, immunization, monitoring of physical and mental development, and management of both acute and chronic illnesses, with a strong focus on preventive and family-centered care."
             },
             {
                 "question":"Can I bring my child for a routine visit?",

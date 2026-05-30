@@ -9,7 +9,7 @@
             {
                 "name":"Dr. Kanchana Verma",
                 "designation":"MS Consultant (Shalakya)",
-                "image":"/assets/images/departments/ent/Dr-Kanchana-Verma.webp"
+                "image":"/assets/images/doctors/ent.jpg"
             }
         ]    ,
         "working_hours":{
@@ -19,8 +19,8 @@
         },
         "faq":[
             {
-                "question":"What kinds of ENT problems are handled here?",
-                "answer":"The department supports ear, nose, and throat concerns, including diagnostic evaluation, treatment planning, and procedural care when needed."
+                "question":"What types of ENT problems are treated in this department?",
+                "answer":"The ENT Department at UHDC manages a wide range of conditions related to the ear, nose, throat, head, and neck. These include ear infections, hearing loss, sinusitis, nasal allergies, throat infections, voice disorders, and head & neck infections. The department also handles both routine and emergency ENT cases, providing accurate diagnosis and treatment using modern diagnostic tools and surgical facilities, with a focus on safe and effective patient care."
             },
             {
                 "question":"Are minor procedures available?",
