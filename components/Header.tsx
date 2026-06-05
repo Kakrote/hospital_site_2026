@@ -64,14 +64,14 @@ const Header = ({ data }: { data: HeaderProps }) => {
                         // className="h-8 w-auto"
                         />
                         <span>{data.contact.join(' | ')}</span>
-                        <span>Admission: {data.addmission}</span>
                     </div>
-                    <Link
+                        <span className='bg-[#f1f1f1] p-3 rounded-xl font-bold'>Admission: {data.addmission}</span>
+                    {/* <Link
                         href="/contact"
                         className="inline-flex items-center justify-center rounded-full bg-slate-900 px-4 py-2 text-sm font-semibold text-white transition hover:bg-slate-700"
                     >
                         {data.cta2}
-                    </Link>
+                    </Link> */}
                 </div>
             </div>
 

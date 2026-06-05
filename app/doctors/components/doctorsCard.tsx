@@ -48,9 +48,9 @@ const DoctorCard = ({ doctor }: DoctorCardProps) => {
         </div> */}
 
         {/* Appointment Button */}
-        <button className="w-full mt-6 px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors font-medium">
+        {/* <button className="w-full mt-6 px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors font-medium">
           Book Appointment
-        </button>
+        </button> */}
       </div>
     </div>
   );
