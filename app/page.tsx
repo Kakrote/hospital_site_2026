@@ -12,7 +12,7 @@ const page = () => {
     <div>
       <HeroSlider />
       <About/>
-      <DirectorsMessage />
+      {/* <DirectorsMessage /> */}
       <VissionMission/>
       <Services/>
       <BloggerPosts />
