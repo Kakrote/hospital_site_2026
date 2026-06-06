@@ -10,12 +10,34 @@ import ConsultantCard from "../components/consultant-card";
 import WorkingHoursCard from "../components/working-hours-card";
 import RelatedDepartmentCard from "../components/related-department-card";
 import FAQAccordion from "../components/faq-accordion";
+import { Metadata } from "next";
 
 type Props = {
     params: Promise<{
         slug: string;
     }>;
 };
+
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+    const { slug } = await params;
+    const department = getDepartmentBySlug(slug);
+
+    if (!department) {
+        return {
+            title: "Department Not Found",
+        };
+    }
+
+    return {
+        title: department.title,
+        description: department.description,
+        openGraph: {
+            title: `${department.title} | UHDC Dehradun`,
+            description: department.description,
+            images: department.image ? [department.image] : [],
+        },
+    };
+}
 
 export function generateStaticParams() {
     return getAllDepartments().map((department) => ({
