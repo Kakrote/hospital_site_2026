@@ -55,16 +55,12 @@
     },
     "heroSlider": [
         {
-            "src": "/assets/images/hero-sliders/slider-new-2.png",
+            "src": "/assets/images/hero-sliders/slider-new-1.jpeg",
             "alt": "Hero Image 1"
         },
         {
-            "src": "/assets/images/hero-sliders/slider-new-3.png",
+            "src": "/assets/images/hero-sliders/slider-new-2.jpeg",
             "alt": "Hero Image 2"
-        },
-        {
-            "src": "/assets/images/hero-sliders/slider-new4.jpg",
-            "alt": "Hero Image 3"
         }
     ],
     "about": {
