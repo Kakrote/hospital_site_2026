@@ -73,7 +73,7 @@ export default async function DepartmentPage({ params }: Props) {
                         <div className="">
                             <div className="relative aspect-[4/5] sm:aspect-[16/10] lg:aspect-[15/7] bg-slate-100">
                                 <Image
-                                    src={department.image}
+                                    src={department.image as string}
                                     alt={department.title}
                                     fill
                                     priority
