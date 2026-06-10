@@ -71,26 +71,20 @@ export default async function DepartmentPage({ params }: Props) {
                 <div className="grid gap-8 ">
                     <div className="overflow-hidden rounded-4xl border border-slate-200 bg-white shadow-[0_24px_80px_rgba(15,23,42,0.12)]">
                         <div className="">
-                            <div className="relative min-h-104 bg-slate-100 lg:min-h-136">
-                                {department.image ? (
-                                    <Image
-                                        src={department.image}
-                                        alt={department.title}
-                                        fill
-                                        priority
-                                        className="object-cover"
-                                        sizes="(max-width: 1024px) 100vw, 50vw"
-                                    />
-                                ) : (
-                                    <div className="flex h-full items-center justify-center bg-linear-to-br from-[#1566a8] to-[#0f2744] text-white">
-                                        <Hospital className="h-16 w-16 opacity-80" />
-                                    </div>
-                                )}
+                            <div className="relative aspect-[4/5] sm:aspect-[16/10] lg:aspect-[15/7] bg-slate-100">
+                                <Image
+                                    src={department.image}
+                                    alt={department.title}
+                                    fill
+                                    priority
+                                    className="object-cover"
+                                    sizes="(max-width: 1024px) 100vw, 50vw"
+                                />
 
                                 <div className="absolute inset-0 bg-linear-to-t from-slate-950/80 via-slate-950/10 to-transparent" />
+
                                 <div className="absolute inset-x-0 bottom-0 p-6 text-white sm:p-8">
-                                    
-                                    <h1 className="mt-3 text-2xl  font-bold tracking-tight text-stroke text-transparent">
+                                    <h1 className="mt-3 text-2xl font-bold tracking-tight text-stroke text-transparent">
                                         {department.title}
                                     </h1>
                                     <p className="mt-4 max-w-5xl text-base leading-7 text-white/80 sm:text-sm">
@@ -160,7 +154,7 @@ export default async function DepartmentPage({ params }: Props) {
                             )}
                         </div>
                     </div>
-                    
+
 
                 </div>
 
