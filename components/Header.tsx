@@ -79,7 +79,7 @@ const Header = ({ data }: { data: HeaderProps }) => {
             <div className="hidden lg:block border-b border-slate-200 bg-white/95 backdrop-blur">
                 <div className="relative z-50 flex gap-4 lg:flex-row lg:items-center lg:justify-between container mx-auto px-4 py-4 sm:px-6 lg:px-8">
                     <Link href="/" className="inline-flex items-center gap-3">
-                        <img src={data.logo} alt="Hospital logo" className="h-12 w-auto" />
+                        <img src={data.logo} alt="Hospital logo" className="h-12 w-32" />
                     </Link>
 
                     {/* Desktop navigation */}
