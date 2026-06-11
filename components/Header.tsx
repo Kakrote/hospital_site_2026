@@ -14,7 +14,7 @@ type HeaderProps = {
     logo: string
     cta: string
     contact: string[]
-    addmission: string
+    // addmission: string
     navigation: NavigationItem[]
     cta2: string
 }
