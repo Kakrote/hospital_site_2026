@@ -14,7 +14,6 @@ type HeaderProps = {
     logo: string
     cta: string
     contact: string[]
-    // addmission: string
     navigation: NavigationItem[]
     cta2: string
 }
@@ -65,7 +64,6 @@ const Header = ({ data }: { data: HeaderProps }) => {
                         />
                         <span>{data.contact.join(' | ')}</span>
                     </div>
-                        {/* <span className='bg-[#f1f1f1] p-3 rounded-xl font-bold'>Admission: {data.addmission}</span> */}
                     {/* <Link
                         href="/contact"
                         className="inline-flex items-center justify-center rounded-full bg-slate-900 px-4 py-2 text-sm font-semibold text-white transition hover:bg-slate-700"

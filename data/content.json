@@ -145,8 +145,8 @@
         
        
         {
-            "question": "What is the admission process?",
-            "answer": "The OPD (Outpatient Department) process in UHDC is simple. The patient first registers at the OPD counter and gets a registration card. Then the patient meets the doctor for consultation. The doctor examines the patient and may advise medicines or tests. After treatment, the patient goes home and may come back for follow-up. If the condition is serious, the doctor may suggest admission to IPD.Contact No is 0135-2770380"
+            "question": "What is the OPD process?",
+            "answer": "The OPD (Outpatient Department) process in UHDC is simple. The patient first registers at the OPD counter and gets a registration card. Then the patient meets the doctor for consultation. The doctor examines the patient and may advise medicines or tests. After treatment, the patient goes home and may come back for follow-up. If the condition is serious, the doctor may suggest IPD treatment. Contact No is 0135-2770380"
         },
         {
             "question": "Is there a parking facility available?",
@@ -233,7 +233,7 @@
                 "0135-2770380",
                 "+917617774518"
             ],
-            "email": "info@umcar.edu.in",
+            "email": "uhdc@uumail.in",
             "address": "123 Health Street, Dehradun, Uttarakhand, India" 
         }
         

@@ -95,9 +95,6 @@ const FAQ = () => {
                                 <a href="tel:01352770380" className="px-5 sm:px-6 py-3 bg-white text-[#1566a8] rounded-lg font-semibold hover:bg-slate-50 transition-colors text-sm sm:text-base">
                                     Call Us: 0135-2770380
                                 </a>
-                                <a href="tel:18008914232" className="px-5 sm:px-6 py-3 bg-[#d6d61d] text-slate-900 rounded-lg font-semibold hover:bg-[#d6d61d]/90 transition-colors text-sm sm:text-base">
-                                    Admission: 1800-891-4232
-                                </a>
                             </div>
                         </div>
                     </div>
